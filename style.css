@@ -21,7 +21,7 @@
 .main {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
@@ -39,5 +39,18 @@
 }
 
 #hauseEmail {
+  display: flex;
+}
+
+.family-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-checkbox {
+  display: flex;
+}
+
+.container-evaluate {
   display: flex;
 }
