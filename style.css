@@ -20,6 +20,8 @@
 
 .main {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #evaluation-form {
@@ -30,4 +32,12 @@
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#fullName {
+  display: flex;
+}
+
+#hauseEmail {
+  display: flex;
 }
