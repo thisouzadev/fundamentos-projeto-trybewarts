@@ -12,3 +12,17 @@ function alerta() {
   });
 }
 alerta();
+
+const counter = document.querySelector('#counter');
+const textArea = document.querySelector('#text-area');
+function counterCaracter(valor) {
+  const quantidade = 500;
+  const total = valor.length;
+  if (total <= quantidade) {
+    const resto = quantidade - total;
+    counter.innerHTML = resto;
+  } else {
+    textArea.value = valor.substr(0, quantidade);
+  }
+}
+counterCaracter(this.value);
