@@ -4,7 +4,7 @@ const entrar = document.querySelector('.buttonLogin');
 const check = document.querySelector('#agreement');
 const buttonCheck = document.querySelector('#submit-btn');
 const counter = document.querySelector('#counter');
-const textArea = document.querySelector('#text-area');
+const textArea = document.querySelector('#textarea');
 
 function alerta() {
   entrar.addEventListener('click', () => {
@@ -32,7 +32,8 @@ checkButton();
 https://pt.stackoverflow.com/questions/25753/como-fazer-um-contador-de-caracteres-de-uma-textarea */
 function counterCaracter(valor) {
   const quantidade = 500;
-  const total = valor.length;
+  let total = 1;
+  total = valor.length;
   if (total <= quantidade) {
     const resto = quantidade - total;
     counter.innerHTML = resto;
@@ -42,3 +43,9 @@ function counterCaracter(valor) {
 }
 
 counterCaracter(this.value);
+
+/* function counterCaracter() {
+  counter.innerText -= textArea.value.length;
+}
+
+counterCaracter(); */
