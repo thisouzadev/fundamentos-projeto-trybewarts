@@ -45,3 +45,10 @@ textArea.addEventListener('change', () => {
   const xablau = textArea.value;
   counterCaracter(xablau);
 });
+
+const submitbtn = document.querySelector('#submit-btn');
+const main = document.querySelector('.main');
+submitbtn.addEventListener('click', (event) => {
+  event.preventDefault();
+  main.innerHTML = '';
+});
