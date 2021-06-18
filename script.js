@@ -13,6 +13,20 @@ function alerta() {
 }
 alerta();
 
+const bntForm = document.querySelector('.submit-button');
+const checkBox = document.querySelector('#agreement');
+
+function checkButton() {
+  checkBox.addEventListener('click', () => {
+    if (checkBox.checked) {
+      bntForm.disabled = false;
+    } else {
+      bntForm.disabled = true;
+    }
+  });
+}
+checkButton();
+
 const counter = document.querySelector('#counter');
 const textArea = document.querySelector('#textarea');
 

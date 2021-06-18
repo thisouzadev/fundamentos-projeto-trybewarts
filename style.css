@@ -4,6 +4,7 @@
 }
 
 .header {
+  padding: 0 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,4 +59,21 @@
 .formLabel {
   display: flex;
   align-items: flex-end;
+}
+
+.checkeValuator {
+  display: flex;
+}
+
+.formCheck {
+  display: flex;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  background: rgb(78, 76, 76);
+  margin-top: 100px;
+  height: 40px;
+  width: 100%;
 }
