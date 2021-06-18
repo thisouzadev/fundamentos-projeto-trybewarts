@@ -14,7 +14,8 @@ function alerta() {
 alerta();
 
 const counter = document.querySelector('#counter');
-const textArea = document.querySelector('#text-area');
+const textArea = document.querySelector('#textarea');
+
 function counterCaracter(valor) {
   const quantidade = 500;
   const total = valor.length;
@@ -25,4 +26,8 @@ function counterCaracter(valor) {
     textArea.value = valor.substr(0, quantidade);
   }
 }
-counterCaracter(this.value);
+
+textArea.addEventListener('change', () => {
+  const xablau = textArea.value;
+  counterCaracter(xablau);
+});
