@@ -36,25 +36,25 @@
       <div id="fullName">
         <div class="mb-3 container">
           <label class="form-label" for="input-name"></label>
-          <input class="form-control" id="input-name" type="text" placeholder="Nome">
+          <input class="containerMain form-control" id="input-name" type="text" placeholder="Nome">
         </div>
 
         <div class="mb-3 container">
           <label class="form-label" for="input-lastname"></label>
-          <input class="form-control" id="input-lastname" type="text" placeholder="Sobrenome">
+          <input class="containerMain form-control" id="input-lastname" type="text" placeholder="Sobrenome">
         </div>
       </div>
 
       <div id="houseEmail">
         <div class="mb-3 container">
           <label class="form-label" for="input-email"></label>
-          <input class="form-control" id="input-email" type="text" placeholder="Email">
+          <input class="containerMain form-control" id="input-email" type="text" placeholder="Email">
         </div>
 
         <div class="mb-3 container formLabel">
           <label class="form-label" for="house">Casa: </label>
-          <select class="form-select" id="house">
-            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <select class="form-select" name="house" id="house">
+            <option id="gitnoria-house"  value="Gitnória">Gitnória</option>
             <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
             <option id="corvinode-house" value="Corvinode">Corvinode</option>
             <option id="pytherina-house" value="Pytherina">Pytherina</option>
@@ -68,15 +68,15 @@
         <div class="mb-3 container">
           <label class="form-label" id="label-family" for="">Qual sua família?</label>
           <div class="mb-3 container">
-            <input class="form-check-input" id="Frontend" value="Frontend" name="family" type="radio">
+            <input class="containerFamily form-check-input" id="Frontend" value="Frontend" name="family" type="radio">
             <label class="form-label" for="Frontend">Frontend</label>
           </div>
           <div class="mb-3 container">
-            <input class="form-check-input" id="Backend" value="Backend" name="family" type="radio">
+            <input class="containerFamily form-check-input" id="Backend" value="Backend" name="family" type="radio">
             <label class="form-label" for="Backend">Backend</label>
           </div>
           <div class="mb-3 container">
-            <input class="form-check-input" id="FullStack" value="FullStack" name="family" type="radio">
+            <input class="containerFamily form-check-input" id="FullStack" value="FullStack" name="family" type="radio">
             <label class="form-label" for="FullStack">FullStack</label>
           </div>
         </div>
@@ -89,29 +89,29 @@
           <div class="container-checkbox">
             <div>
               <div class="mb-3 container">
-                <input class="subject form-check-input" id="hofs" type="checkbox" value="HoFs">
+                <input class="contents subject form-check-input" id="hofs" type="checkbox" value="HoFs">
                 <label class="form-label" for="hofs">HoFs</label>
               </div>
               <div class="mb-3 container">
-                <input class="subject form-check-input" id="jest" type="checkbox" value="Jest">
+                <input class="contents subject form-check-input" id="jest" type="checkbox" value="Jest">
                 <label class="form-check-label" for="jest">Jest</label>
               </div>
               <div class="mb-3 container">
-                <input class="subject form-check-input" id="promisse" type="checkbox" value="Promises">
+                <input class="contents subject form-check-input" id="promisse" type="checkbox" value="Promises">
                 <label class="form-check-label" for="promisse">Promises</label>
               </div>
             </div>
             <div>
               <div class="mb-3 container">
-                <input class="subject form-check-input"id="react" type="checkbox" value="React">
+                <input class="contents subject form-check-input"id="react" type="checkbox" value="React">
                 <label class="form-check-label" for="react">React</label>
               </div>
               <div class="mb-3 container">
-                <input class="subject form-check-input" id="sql" type="checkbox" value="SQL">
+                <input class="contents subject form-check-input" id="sql" type="checkbox" value="SQL">
                 <label class="form-check-label" for="sql">SQL</label>
               </div>
               <div class="mb-3 container">
-                <input class="subject form-check-input"id="python" type="checkbox" value="Python">
+                <input class="contents subject form-check-input"id="python" type="checkbox" value="Python">
                 <label class="form-check-label" for="python">Python</label>
               </div>
             </div>
@@ -127,43 +127,43 @@
         </div>
         <div class="checkeValuator">
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="one" type="radio" value="1" name="rate">
+            <input class="evaluator form-check-input" id="one" type="radio" value="1" name="rate">
             <label class="form-label" for="one">1</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="two" type="radio" value="2" name="rate">
+            <input class="evaluator form-check-input" id="two" type="radio" value="2" name="rate">
             <label class="form-label" for="two">2</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="tree" type="radio" value="3" name="rate">
+            <input class="evaluator form-check-input" id="tree" type="radio" value="3" name="rate">
             <label class="form-label" for="tree">3</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="four" type="radio" value="4" name="rate">
+            <input class="evaluator form-check-input" id="four" type="radio" value="4" name="rate">
             <label class="form-label" for="four">4</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="five" type="radio" value="5" name="rate">
+            <input class="evaluator form-check-input" id="five" type="radio" value="5" name="rate">
             <label class="form-label" for="five">5</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="six" type="radio" value="6" name="rate">
+            <input class="evaluator form-check-input" id="six" type="radio" value="6" name="rate">
             <label class="form-label" for="six">6</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="seven" type="radio" value="7" name="rate">
+            <input class="evaluator form-check-input" id="seven" type="radio" value="7" name="rate">
             <label class="form-label" for="seven">7</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="eight" type="radio" value="8" name="rate">
+            <input class="evaluator form-check-input" id="eight" type="radio" value="8" name="rate">
             <label class="form-label" for="eight">8</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="nine" type="radio" value="9" name="rate">
+            <input class="evaluator form-check-input" id="nine" type="radio" value="9" name="rate">
             <label class="form-label" for="nine">9</label>
           </div>
           <div class="mb-3 formCheck">
-            <input class="form-check-input" id="ten" type="radio" value="10" name="rate">
+            <input class="evaluator form-check-input" id="ten" type="radio" value="10" name="rate">
             <label class="form-label" for="ten">10</label>
           </div>
         </div>
@@ -172,7 +172,7 @@
       <div class="mb-3 container">
         <label class="textarea form-label" for="text-area">Deixe seu comentário:</label>
         <span id="counter">500</span> caracteres restantes.
-        <textarea class="form-control" onkeyup="counterCaracter(this.value)" name="" id="textarea" cols="20" rows="10"
+        <textarea class="containerMain form-control" onkeyup="counterCaracter(this.value)" name="" id="textarea" cols="20" rows="10"
           maxlength="500"></textarea>
       </div>
 
